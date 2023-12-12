@@ -13,6 +13,8 @@ git commit -m "msg" // commita o arquivo, em msg coloca a descrição desse arqu
 
 git remote add origin link_do_repositorio // conecta o git da maquina cm o github
 
+git branch "nome" // adiciona um branch nova
+
 git push origin "main" // empura os arquivos do nosso repositório com o github - se for a primeira vez precisa colocar -u dps do push
 // da pra trocar main por outras branchs
 
