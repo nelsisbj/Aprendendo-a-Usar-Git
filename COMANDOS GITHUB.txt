@@ -1,0 +1,23 @@
+COMANDOS GITHUB
+
+git --version // versão do git
+
+git init // inicializa um repositório vazio
+
+git add nome// adiciona um novo arquivo na área de commit - se colocar "." no nome manda todos os arquivos,
+// caso queira mandar algum em específico, escreva o nome
+
+git status // mostra se tem arquivos a serem comitados
+
+git commit -m "msg" // commita o arquivo, em msg coloca a descrição desse arquivo
+
+git remote add origin link_do_repositorio // conecta o git da maquina cm o github
+
+git push origin "main" // empura os arquivos do nosso repositório com o github - se for a primeira vez precisa colocar -u dps do push
+// da pra trocar main por outras branchs
+
+git checkout -b "nome_da_branch" // sai da branch atual e vai para uma nova branch alterando só ela.
+
+git merge "nome_da_branch" // Da merge em uma branch com a main
+
+git clone link // tras um projeto do github para uma pasta no pc
